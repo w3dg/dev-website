@@ -1,11 +1,13 @@
 import React from "react";
-import "./App.css";
+import Container from "@material-ui/core/Container";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Hello</header>
-    </div>
+    <Container>
+      <div className="App">
+        <h1 className="App-header">Hello Website Coming soon...</h1>
+      </div>
+    </Container>
   );
 }
 
