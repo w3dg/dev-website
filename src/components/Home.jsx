@@ -6,7 +6,9 @@ function Home() {
   return (
     <>
       <Navbar />
-      <Container id="home">Hello from home </Container>
+      <Container fixed id="home">
+        <main id="main">Hello from Home!</main>
+      </Container>
     </>
   );
 }

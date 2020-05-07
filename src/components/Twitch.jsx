@@ -6,7 +6,9 @@ function Twitch() {
   return (
     <>
       <Navbar />
-      <Container id="twi">Hello from twitch.</Container>
+      <Container fixed id="twi">
+        <main id="main">Hello from Twitch!</main>
+      </Container>
     </>
   );
 }

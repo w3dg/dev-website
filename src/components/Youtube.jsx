@@ -6,7 +6,9 @@ function Youtube() {
   return (
     <>
       <Navbar />
-      <Container id="yt">Hello from Youtube.</Container>
+      <Container fixed id="yt">
+        <main id="main">Hello from Youtube!</main>
+      </Container>
     </>
   );
 }

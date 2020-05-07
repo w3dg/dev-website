@@ -22,7 +22,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="sticky" style={{ margin: 0 }}>
+      <AppBar position="fixed" style={{ margin: 0 }}>
         <Toolbar id="toolbar">
           <Typography variant="h4" id="title" className={classes.title}>
             DG

@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 #title {
-  width: 80%;
+  width: 70%;
+  padding-left: 5%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -15,25 +16,26 @@ a {
 
 #nav-btn {
   padding: 0px 0px 0px 0px !important;
-  /* width: 50%; */
 }
 
 .App {
   font-family: Poppins;
   padding: 0;
   margin: 0;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   box-sizing: border-box;
+}
+#main {
+  padding-top: 9vh;
 }
 
 #home,
 #yt,
 #gh,
 #twi {
-  height: 93vh;
+  height: 100vh;
   padding: 0;
-  margin: 0;
   color: white;
   box-sizing: border-box;
   min-width: 100%;
@@ -54,7 +56,8 @@ a {
 html,
 body {
   font-family: "DM Sans", sans-serif;
-  min-height: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 * {

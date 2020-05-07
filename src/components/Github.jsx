@@ -5,7 +5,10 @@ import Navbar from "./Navbar";
 function Github() {
   return (
     <>
-      <Navbar /> <Container id="gh">Hello from github.</Container>
+      <Navbar />
+      <Container fixed id="gh">
+        <main id="main">Hello from Github!</main>
+      </Container>
     </>
   );
 }
