@@ -22,22 +22,22 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" style={{ margin: 0 }}>
+      <AppBar position="fixed" style={{ margin: 0, background: "#0B0B0B38" }}>
         <Toolbar id="toolbar">
           <Typography variant="h4" id="title" className={classes.title}>
             DG
           </Typography>
           <Button id="nav-btn" color="inherit">
-            <a href="/">Home</a>
+            <a href="/">home</a>
           </Button>
           <Button id="nav-btn" color="inherit">
-            <a href="/youtube">Youtube</a>
+            <a href="/youtube">youtube</a>
           </Button>
           <Button id="nav-btn" color="inherit">
-            <a href="/twitch">Twitch</a>
+            <a href="/twitch">twitch</a>
           </Button>
           <Button id="nav-btn" color="inherit">
-            <a href="/github">Github</a>
+            <a href="/github">github</a>
           </Button>
         </Toolbar>
       </AppBar>
