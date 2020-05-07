@@ -7,10 +7,10 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 0,
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(5),
   },
   title: {
     flexGrow: 1,
@@ -22,21 +22,21 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="sticky">
-        <Toolbar>
+      <AppBar position="sticky" style={{ margin: 0 }}>
+        <Toolbar id="toolbar">
           <Typography variant="h4" id="title" className={classes.title}>
             DG
           </Typography>
-          <Button color="inherit">
+          <Button id="nav-btn" color="inherit">
             <a href="/">Home</a>
           </Button>
-          <Button color="inherit">
+          <Button id="nav-btn" color="inherit">
             <a href="/youtube">Youtube</a>
           </Button>
-          <Button color="inherit">
+          <Button id="nav-btn" color="inherit">
             <a href="/twitch">Twitch</a>
           </Button>
-          <Button color="inherit">
+          <Button id="nav-btn" color="inherit">
             <a href="/github">Github</a>
           </Button>
         </Toolbar>

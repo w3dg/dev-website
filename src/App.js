@@ -10,13 +10,15 @@ import Home from "./components/Home";
 import Youtube from "./components/Youtube";
 import Github from "./components/Github";
 import Twitch from "./components/Twitch";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <React.Fragment>
+      <CssBaseline />
+      <Router>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -34,8 +36,8 @@ function App() {
           </Route>
           <Redirect to="/" />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </React.Fragment>
   );
 }
 
