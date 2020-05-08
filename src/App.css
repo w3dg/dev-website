@@ -41,18 +41,21 @@ a {
   box-sizing: border-box;
   min-width: 100%;
   min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 #home {
-  background: linear-gradient(45deg, #2d3142, #4f5d75);
+  background-image: url("./home-bg.jpg");
 }
 #twi {
-  background: linear-gradient(45deg, #400b85, #483857);
+  background-image: url("./home-bg.jpg");
 }
 #yt {
-  background: linear-gradient(45deg, #dd2602, #8d1800);
+  background-image: url("./home-bg.jpg");
 }
 #gh {
-  background: linear-gradient(45deg, #1b1b1b, #3a3a3a);
+  background-image: url("./home-bg.jpg");
 }
 html,
 body {
