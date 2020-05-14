@@ -7,7 +7,19 @@ function Home() {
     <>
       <Navbar />
       <Container fixed id="home">
-        <main id="main">Hello from Home!</main>
+        <main id="main">
+          <div id="home-main">
+            <h1>
+              Hi! I am <br /> Debopam Gupta
+            </h1>
+            <p>
+              <em>I am passionate about coding and love to relax! </em>
+              <span role="img" aria-label="toungue-out-emoji">
+                😜
+              </span>
+            </p>
+          </div>
+        </main>
       </Container>
     </>
   );

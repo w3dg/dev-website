@@ -28,7 +28,21 @@ a {
   box-sizing: border-box;
 }
 #main {
+  background: linear-gradient(90deg, #00000000, #00000075);
   padding-top: 20vh;
+  min-height: 100%;
+  min-width: 100%;
+}
+#home-main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 8vh;
+}
+
+h2 {
+  font-size: 4vh;
 }
 
 #home,
