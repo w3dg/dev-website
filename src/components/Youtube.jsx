@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "@material-ui/core";
+import { Container, Button } from "@material-ui/core";
 import Navbar from "./Navbar";
 
 function Youtube() {
@@ -7,7 +7,18 @@ function Youtube() {
     <>
       <Navbar />
       <Container fixed id="yt">
-        <main id="main">Hello from Youtube!</main>
+        <main id="main">
+          <div id="home-main">
+            <h1>Check me out over on Youtube!</h1>
+            <Button
+              variant="contained"
+              color="secondary"
+              href="https://www.youtube.com/channel/UCrXTbv7MSiHSt1b8eWjaxAA"
+            >
+              Take me to Youtube
+            </Button>
+          </div>
+        </main>
       </Container>
     </>
   );

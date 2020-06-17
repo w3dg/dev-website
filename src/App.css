@@ -60,16 +60,16 @@ h2 {
   background-position: bottom;
 }
 #home {
-  background-image: url("./home-bg.jpg");
+  background: repeating-linear-gradient(45deg, #18181b, #5c97f5);
 }
 #twi {
-  background-image: url("./home-bg.jpg");
+  background: repeating-linear-gradient(45deg, #18181b, #9147ff);
 }
 #yt {
-  background-image: url("./home-bg.jpg");
+  background: repeating-linear-gradient(45deg, #202020, #ff0000);
 }
 #gh {
-  background-image: url("./home-bg.jpg");
+  background: repeating-linear-gradient(45deg, #202020, #332f2f);
 }
 html,
 body {
