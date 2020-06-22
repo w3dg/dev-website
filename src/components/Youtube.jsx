@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Button } from "@material-ui/core";
 import Navbar from "./Navbar";
+import BottomNav from "./BottomNav";
 
 function Youtube() {
   return (
@@ -17,6 +18,7 @@ function Youtube() {
             >
               Take me to Youtube
             </Button>
+            <BottomNav />
           </div>
         </main>
       </Container>

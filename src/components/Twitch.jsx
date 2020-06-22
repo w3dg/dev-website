@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Button } from "@material-ui/core";
 import Navbar from "./Navbar";
+import BottomNav from "./BottomNav";
 
 function Twitch() {
   return (
@@ -17,6 +18,7 @@ function Twitch() {
             >
               Take me to Twitch
             </Button>
+            <BottomNav />
           </div>
         </main>
       </Container>

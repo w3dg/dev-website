@@ -27,18 +27,20 @@ export default function ButtonAppBar() {
           <Typography variant="h4" id="title" className={classes.title}>
             DG
           </Typography>
-          <Button id="nav-btn" color="inherit">
-            <a href="/">home</a>
-          </Button>
-          <Button id="nav-btn" color="inherit">
-            <a href="/youtube">youtube</a>
-          </Button>
-          <Button id="nav-btn" color="inherit">
-            <a href="/twitch">twitch</a>
-          </Button>
-          <Button id="nav-btn" color="inherit">
-            <a href="/github">github</a>
-          </Button>
+          <div id="buttons">
+            <Button id="nav-btn" color="inherit">
+              <a href="/">home</a>
+            </Button>
+            <Button id="nav-btn" color="inherit">
+              <a href="/youtube">youtube</a>
+            </Button>
+            <Button id="nav-btn" color="inherit">
+              <a href="/twitch">twitch</a>
+            </Button>
+            <Button id="nav-btn" color="inherit">
+              <a href="/github">github</a>
+            </Button>
+          </div>
         </Toolbar>
       </AppBar>
     </div>

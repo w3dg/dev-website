@@ -14,7 +14,9 @@ a {
 #toolbar {
   padding: 0px 0px 0px 0px;
 }
-
+#buttons {
+  display: flex;
+}
 #nav-btn {
   padding-right: 2vw !important;
 }
@@ -35,6 +37,10 @@ a {
 }
 #home-main {
   text-align: center;
+}
+
+#hamburger {
+  display: none;
 }
 
 h1 {
@@ -93,13 +99,32 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.navbottom {
+  display: none;
+}
 
-@media (max-width: 68px) {
+@media only screen and (max-width: 570px) {
   * {
     font-family: "DM Sans", sans-serif;
     font-size: smaller;
   }
+  h1 {
+    font-size: 4vh;
+  }
+
+  h2 {
+    margin: 1vh;
+    font-size: 3vh;
+  }
   #nav-btn {
     padding-right: 5vw !important;
+  }
+  #buttons {
+    display: none;
+  }
+
+  .navbottom {
+    display: block;
+    margin-top: 5vh;
   }
 }

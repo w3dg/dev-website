@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Button } from "@material-ui/core";
 import Navbar from "./Navbar";
+import BottomNav from "./BottomNav";
 
 function Github() {
   return (
@@ -18,6 +19,7 @@ function Github() {
             >
               take me to Github
             </Button>
+            <BottomNav />
           </div>
         </main>
       </Container>

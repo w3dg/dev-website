@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "@material-ui/core";
 import Navbar from "./Navbar";
+import BottomNav from "./BottomNav";
 
 function Home() {
   return (
@@ -10,14 +11,14 @@ function Home() {
         <main id="main">
           <div id="home-main">
             <h1>
-              Hi! I am <br /> Debopam Gupta
+              Hi there! <br /> I am Debopam Gupta
             </h1>
-            <p>
-              <em>I am passionate about coding and love to relax! </em>
-              <span role="img" aria-label="toungue-out-emoji">
-                😜
-              </span>
-            </p>
+            <h2>
+              <em>
+                I am passionate about coding and i love to learn new stuff!
+              </em>
+            </h2>
+            <BottomNav />
           </div>
         </main>
       </Container>
