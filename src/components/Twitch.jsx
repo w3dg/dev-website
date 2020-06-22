@@ -10,11 +10,14 @@ function Twitch() {
       <Container fixed id="twi">
         <main id="main">
           <div id="home-main">
-            <h1>Let's head over to Twitch!</h1>
+            <h1>Follow me on Twitch!</h1>
+            <h2>Let's head over to Twitch!</h2>
             <Button
               variant="contained"
               color="primary"
               href="https://www.twitch.tv/debopamgupta"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Take me to Twitch
             </Button>

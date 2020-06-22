@@ -16,6 +16,8 @@ function Github() {
               variant="contained"
               color="primary"
               href="https://github.com/debopamgupta"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               take me to Github
             </Button>
