@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Button } from "@material-ui/core";
+import Container from "@material-ui/core/Container";
+import Button from "@material-ui/core/Button";
 import Navbar from "./Navbar";
 import BottomNav from "./BottomNav";
 
