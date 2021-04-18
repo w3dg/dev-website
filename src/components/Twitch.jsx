@@ -20,7 +20,7 @@ function Twitch() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Take me to Twitch
+              Go to Twitch
             </Button>
             <BottomNav />
           </div>

@@ -40,6 +40,12 @@ export default function ButtonAppBar() {
             <Button id="nav-btn" color="inherit">
               <a href="/github">github</a>
             </Button>
+            <Button id="nav-btn" color="inherit">
+              <a href="/twitter">twitter</a>
+            </Button>
+            <Button id="nav-btn" color="inherit">
+              <a href="/instagram">instagram</a>
+            </Button>
           </div>
         </Toolbar>
       </AppBar>

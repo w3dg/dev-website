@@ -20,7 +20,7 @@ function Github() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              take me to Github
+              go to Github
             </Button>
             <BottomNav />
           </div>

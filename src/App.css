@@ -30,7 +30,7 @@ a {
   box-sizing: border-box;
 }
 #main {
-  background: linear-gradient(90deg, #00000000, #00000075);
+  background: linear-gradient(90deg, #0000005d, #0e0e0e9a);
   padding-top: 20vh;
   min-height: 100%;
   min-width: 100%;
@@ -54,7 +54,9 @@ h2 {
 #home,
 #yt,
 #gh,
-#twi {
+#twi,
+#twe,
+#ig {
   height: 100vh;
   padding: 0;
   color: white;
@@ -64,19 +66,19 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
-#home {
-  background-image: url("./home-bg.jpg");
+#home,
+#twi,
+#yt,
+#gh,
+#twe,
+#ig {
+  background-image: url("./bg.jpg");
 }
-#twi {
-  background-image: url("./home-bg.jpg");
-}
-#yt {
-  background-image: url("./home-bg.jpg");
-}
-#gh {
-  background-image: url("./home-bg.jpg");
-}
+
 html,
 body {
   font-family: "DM Sans", sans-serif;
@@ -103,7 +105,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 680px) {
   * {
     font-family: "DM Sans", sans-serif;
     font-size: smaller;

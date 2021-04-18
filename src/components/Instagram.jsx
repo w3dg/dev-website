@@ -4,23 +4,23 @@ import Button from "@material-ui/core/Button";
 import Navbar from "./Navbar";
 import BottomNav from "./BottomNav";
 
-function Youtube() {
+function Instagram() {
   return (
     <>
       <Navbar />
-      <Container fixed id="yt">
+      <Container fixed id="ig">
         <main id="main">
           <div id="home-main">
-            <h1>Woah! A Youtube channel?</h1>
-            <h2>Let's head to Youtube!</h2>
+            <h1>Cool Clicks and Content!</h1>
+            <h2>Head over to Instagram</h2>
             <Button
               variant="contained"
               color="secondary"
-              href="https://www.youtube.com/channel/UCrXTbv7MSiHSt1b8eWjaxAA"
+              href="https://www.instagram.com/its_not_dg/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Go to Youtube
+              go to instagram
             </Button>
             <BottomNav />
           </div>
@@ -30,4 +30,4 @@ function Youtube() {
   );
 }
 
-export default Youtube;
+export default Instagram;
