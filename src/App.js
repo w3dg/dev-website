@@ -15,6 +15,7 @@ function App() {
   return (
     <React.Fragment>
       <CssBaseline />
+      {/* Update Guide for v6 https://reactrouter.com/docs/en/v6/upgrading/v5#refactor-custom-routes */}
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
