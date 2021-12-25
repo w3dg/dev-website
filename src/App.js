@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./components/Home";
 import Youtube from "./components/Youtube";
@@ -21,27 +16,14 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/youtube">
-            <Youtube />
-          </Route>
-          <Route exact path="/twitch">
-            <Twitch />
-          </Route>
-          <Route exact path="/github">
-            <Github />
-          </Route>
-          <Route exact path="/twitter">
-            <Twitter />
-          </Route>
-          <Route exact path="/instagram">
-            <Instagram />
-          </Route>
-          <Redirect to="/" />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/youtube" element={<Youtube />} />
+          <Route exact path="/twitch" element={<Twitch />} />
+          <Route exact path="/github" element={<Github />} />
+          <Route exact path="/twitter" element={<Twitter />} />
+          <Route exact path="/instagram" element={<Instagram />} />
+        </Routes>
       </Router>
     </React.Fragment>
   );
