@@ -16,7 +16,7 @@ function Twitter() {
             <Button
               variant="contained"
               color="primary"
-              href="https://twitter.com/debopamgupta04"
+              href="https://twitter.com/its_not_dg"
               target="_blank"
               rel="noopener noreferrer"
             >
